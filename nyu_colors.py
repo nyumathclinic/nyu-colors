@@ -1,20 +1,42 @@
 from enum import Enum
+
+NYU_VIOLET = "#57068c"
+ULTRA_VIOLET = "#8900e1"
+MEDIUM_VIOLET1 = "#702b9d"
+MEDIUM_VIOLET2 = "#7b5aa6"
+LIGHT_VIOLET1 = "#ab82c5"
+LIGHT_VIOLET2 = "#eee6f3"
+DEEP_VIOLET = "#330662"
+BLACK = "#000000"
+DARK_GRAY = "#404040"
+MEDIUM_GRAY1 = "#6d6d6d"
+MEDIUM_GRAY2 = "#b8b8b8"
+MEDIUM_GRAY3 = "#d6d6d6"
+LIGHT_GRAY = "#f2f2f2"
+WHITE = "#ffffff"
+MAGENTA = "#fb0f78"
+TEAL = "#009b8a"
+BLUE = "#59b2d1"
+YELLOW = "#f4ec51"
+
+
+# as an enum
 class Color(Enum):
-  violet = "#57068c"
-  ultra_violet = "#8900e1"
-  medium_violet1 = "#702b9d"
-  medium_violet2 = "#7b5aa6"
-  light_violet1 = "#ab82c5"
-  light_violet2 = "#eee6f3"
-  black = "#000000"
-  deep_violet = "#330662"
-  dark_gray = "#404040"
-  medium_gray1 = "#6d6d6d"
-  medium_gray2 = "#b8b8b8"
-  medium_gray3 = "#d6d6d6"
-  light_gray = "#f2f2f2"
-  white = "#ffffff"
-  magenta = "#fb0f78"
-  teal = "#009b8a"
-  blue = "#59b2d1"
-  yellow = "#f4ec51"
+    NYU_VIOLET = NYU_VIOLET
+    ULTRA_VIOLET = ULTRA_VIOLET
+    MEDIUM_VIOLET1 = MEDIUM_VIOLET1
+    MEDIUM_VIOLET2 = MEDIUM_VIOLET2
+    LIGHT_VIOLET1 = LIGHT_VIOLET1
+    LIGHT_VIOLET2 = LIGHT_VIOLET2
+    DEEP_VIOLET = DEEP_VIOLET
+    BLACK = BLACK
+    DARK_GRAY = DARK_GRAY
+    MEDIUM_GRAY1 = MEDIUM_GRAY1
+    MEDIUM_GRAY2 = MEDIUM_GRAY2
+    MEDIUM_GRAY3 = MEDIUM_GRAY3
+    LIGHT_GRAY = LIGHT_GRAY
+    WHITE = WHITE
+    MAGENTA = MAGENTA
+    TEAL = TEAL
+    BLUE = BLUE
+    YELLOW = YELLOW
