@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nyu-colors"
+version = "0.1.0"
+description = "NYU brand color constants and Color enum for Python projects"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/nyumathclinic/nyu-colors"
