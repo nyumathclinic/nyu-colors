@@ -1,8 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-nyu_colors/__init__.py
-nyu_colors.egg-info/PKG-INFO
-nyu_colors.egg-info/SOURCES.txt
-nyu_colors.egg-info/dependency_links.txt
-nyu_colors.egg-info/top_level.txt
